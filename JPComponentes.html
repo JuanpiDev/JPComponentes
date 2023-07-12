@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Componentes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r bg-cover bg-no repeat" style="font-family: 'Pontano Sans', sans-serif;">
+    <header data-aos="fade-down" data-aos-duration="2000">
+        <nav class="flex items-center justify-between bg-black px-8 py-4 text-white">
+            <div class="flex" style="font-family: 'Press Start 2P', cursive;">
+                <p>JP Componentes</p>
+            </div>
+            <div class="flex space-x-6" style="font-family: 'Readex Pro', sans-serif;">
+                <ul class="hidden md:flex space-x-6">
+                    <li class="hover:underline"><a href="#">Inicio</a></li>
+                    <li class="hover:underline"><a href="#">Productos</a></li>
+                    <li class="hover:underline"><a href="#">Recomendados</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center space-x-6">
+                <button>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <button class="flex md:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>    
+        <section class="flex items-center justify-center py-6 px-5 text-white" data-aos="fade-down" data-aos-duration="1500">
+            <div class="pt-2 relative mx-auto text-gray-600">
+                <input class="border-2 border-gray-300 bg-transparent h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+                  type="search" name="search" placeholder="Buscar">
+                <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
+                  <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
+                    viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
+                    width="512px" height="512px">
+                    <path
+                      d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z" />
+                  </svg>
+                </button>
+              </div>
+        </section>
+    <main class="flex flex-col gap-5 lg:flex-row items-center justify-center h-screen" data-aos="fade-down" data-aos-duration="1000">
+        <div class="flex flex-col py-4 px-5 lg:flex-row items-center justify-center bg-gradient-to-l from-gray-200 via-gray-400 to-gray-600 lg:bg-gradient-to-r from-gray-200 via-gray-400 to-gray-600 lg:py-32 lg:px-32 rounded-3xl">
+            <div class="flex items-center justify-center" data-aos="zoom-in" data-aos-duration="1000">
+                <img class="w-1/2 " src="PC-Transparent-Background.png" alt="">
+            </div>
+            <div class="flex flex-col items-center justify-center text-white gap-10">
+                <p class="text-4xl font-bold">50% en todos nuestros productos</p>
+                <button type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Compra Ahora</button>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="flex items-center justify-center font-bold text-white text-5xl py-20" data-aos="fade-up" data-aos-duration="2000">
+            <h1>Productos</h1>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 px-16">
+            <div class="flex flex-col items-center justify-center gap-10" data-aos="fade-left" data-aos-duration="2000">
+                <div class="w-9/12">
+                    <img src="1532541-gf-web-dmo-graphics-cards-3080-594x308.png" alt="">
+                </div>
+                <div class="text-xl cursor-pointer text-white border-white hover:border-black hover:text-black hover:bg-gradient-to-b from-gray-100 to-gray-300 py-4 px-8 border-2 border-black rounded-3xl">
+                    <p>Tarjetas de Video</p> 
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center gap-10" data-aos="fade-left" data-aos-duration="2000">
+                <div class="w-9/12">
+                    <img src="Procesadores.png" alt="">
+                </div>
+                <div class="text-xl cursor-pointer text-white border-white hover:border-black hover:text-black hover:bg-gradient-to-b from-gray-100 to-gray-300 py-4 px-8 border-2 border-black rounded-3xl">
+                    <p>Procesadores</p> 
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center gap-10" data-aos="fade-left" data-aos-duration="2000">
+                <div class="w-9/12">
+                    <img src="culmination-item-2.avif" alt="">
+                </div>
+                <div class="text-xl cursor-pointer text-white border-white hover:border-black hover:text-black hover:bg-gradient-to-b from-gray-100 to-gray-300 py-4 px-8 border-2 border-black rounded-3xl">
+                    <p>RAM</p> 
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center gap-10" data-aos="fade-right" data-aos-duration="2000">
+                <div class="w-9/12">
+                    <img src="es-980-pro-nvme-m2-ssd-mz-v8p500bw-503500067.avif" alt="">
+                </div>
+                <div class="text-xl cursor-pointer text-white border-white hover:border-black hover:text-black hover:bg-gradient-to-b from-gray-100 to-gray-300 py-4 px-8 border-2 border-black rounded-3xl">
+                    <p>Discos Duros</p> 
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center gap-10" data-aos="fade-right" data-aos-duration="2000">
+                <div class="w-9/12">
+                    <img src="cooler.avif" alt="">
+                </div>
+                <div class="text-xl cursor-pointer text-white border-white hover:border-black hover:text-black hover:bg-gradient-to-b from-gray-100 to-gray-300 py-4 px-8 border-2 border-black rounded-3xl">
+                    <p>Refrigeracion</p> 
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center gap-10" data-aos="fade-right" data-aos-duration="2000">
+                <div class="w-2/3 h-9/12">
+                    <img src="w260.png" alt="">
+                </div>
+                <div class="text-xl cursor-pointer text-white border-white hover:border-black hover:text-black hover:bg-gradient-to-b from-gray-100 to-gray-300 py-4 px-8 border-2 border-black rounded-3xl">
+                    <p>Tarjetas Madre</p> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex items-center justify-center font-bold text-white text-5xl py-20" data-aos="fade-down-right" data-aos-duration="2000">
+            <h1>Recomendados</h1>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 px-16 text-white">
+            <div class="flex flex-col items-center justify-center rounded-3xl bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200" data-aos="flip-left" data-aos-duration="2000">
+                <div class="">
+                    <img src="GeForce-ADA-RTX4060Ti-Back.png" alt="">
+                </div>
+                <div class="">
+                    <p>GeForce RTX 4060Ti</p> 
+                </div>
+                <div>
+                    <button class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Comprar</button>
+                </div>
+            </div>
+            <div class="flex flex-col items-center justify-center rounded-3xl bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200" data-aos="flip-right" data-aos-duration="2000">
+                <div class="">
+                    <img src="GeForce-ADA-RTX4070-Back.png" alt="">
+                </div>
+                <div>
+                    <p>GeForce RTX 4070</p> 
+                </div>
+                <div>
+                    <button class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div><br></div>
+    <div><br></div>
+
+    <div class="flex flex-row items-center justify-center gap-8 text-white py-10">
+        <button><i class="fa-brands fa-facebook"></i></button>
+        <button><i class="fa-brands fa-instagram"></i></button>
+        <button><i class="fa-brands fa-twitter"></i></button>
+    </div>
+
+    <div>
+        <br>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
